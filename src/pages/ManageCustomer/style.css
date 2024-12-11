@@ -1,0 +1,68 @@
+.header {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  margin-bottom: 20px;
+}
+.title > h1 {
+  margin-left: 10px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.search-block {
+  display: flex;
+  align-items: center;
+}
+.search-block > input {
+  width: 348px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #828282;
+  padding: 15px;
+}
+
+.search-block > button {
+  border: none;
+  background-color: transparent;
+  margin-left: 25px;
+}
+.account-block {
+  display: flex;
+  align-items: center;
+}
+
+.account-name span {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: right;
+}
+.account-img {
+  width: 36px;
+  height: 46px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.btn-add {
+  width: 161px;
+  height: 36px;
+  margin-top: 20px;
+  padding: 8px 20px;
+  border-radius: 8px;
+  background-color: #bd8306;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  float: right;
+}
+
+.content {
+  margin-top: 40px;
+}
